@@ -1,0 +1,87 @@
+{
+  "T01": {
+    "fps": 24.0,
+    "durationSeconds": 23.208333333333332,
+    "width": 640,
+    "height": 360,
+    "annotatedIntervalsSeconds": [
+      [
+        8.041666666666666,
+        12.083333333333334
+      ]
+    ]
+  },
+  "T02": {
+    "fps": 24.0,
+    "durationSeconds": 40.083333333333336,
+    "width": 480,
+    "height": 360,
+    "annotatedIntervalsSeconds": []
+  },
+  "T03": {
+    "fps": 24.0,
+    "durationSeconds": 53.125,
+    "width": 500,
+    "height": 360,
+    "annotatedIntervalsSeconds": [
+      [
+        0.0,
+        52.083333333333336
+      ]
+    ]
+  },
+  "T04": {
+    "fps": 24.0,
+    "durationSeconds": 53.958333333333336,
+    "width": 320,
+    "height": 240,
+    "annotatedIntervalsSeconds": [
+      [
+        0.0,
+        53.916666666666664
+      ]
+    ]
+  },
+  "T05": {
+    "fps": 24.0,
+    "durationSeconds": 127.95833333333333,
+    "width": 400,
+    "height": 230,
+    "annotatedIntervalsSeconds": []
+  },
+  "T06": {
+    "fps": 24.0,
+    "durationSeconds": 6.625,
+    "width": 640,
+    "height": 360,
+    "annotatedIntervalsSeconds": []
+  },
+  "T07": {
+    "fps": 24.0,
+    "durationSeconds": 10.625,
+    "width": 640,
+    "height": 360,
+    "annotatedIntervalsSeconds": []
+  },
+  "T08": {
+    "fps": 24.0,
+    "durationSeconds": 28.458333333333332,
+    "width": 352,
+    "height": 288,
+    "annotatedIntervalsSeconds": []
+  },
+  "T09": {
+    "fps": 24.0,
+    "durationSeconds": 29.458333333333332,
+    "width": 406,
+    "height": 720,
+    "annotatedIntervalsSeconds": []
+  },
+  "T10": {
+    "fps": 24.0,
+    "durationSeconds": 40.0,
+    "width": 640,
+    "height": 360,
+    "annotatedIntervalsSeconds": []
+  }
+}

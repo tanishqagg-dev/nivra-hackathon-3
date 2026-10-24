@@ -1,0 +1,99 @@
+{
+  "dataset": "jherng/xd-violence",
+  "revision": "8eba22ca666b5061cf4f3e1b1907c05af520dc07",
+  "role": "fresh-validation",
+  "selection": "Next five smallest eligible fighting files and five normal files, excluding every source ID from the first ten. Fixed before consensus-v2 inference. Convenience sample; model-training overlap unknown.",
+  "modelsFrozen": "consensus-v2, two of three model votes; unchanged per-model thresholds .4/.7/.9",
+  "videos": [
+    {
+      "id": "N01",
+      "expectedFight": true,
+      "sourceId": "6nfo9c7a5pE",
+      "sourcePath": "data/video/test_videos/v=6nfo9c7a5pE__#1_label_B1-0-0.mp4",
+      "sha256": "bdb1c143349c6066c1dba7122461688d2842c3a12b483a5b23637a7fbbfbd67a",
+      "bytes": 6046553,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3D6nfo9c7a5pE__%231_label_B1-0-0.mp4"
+    },
+    {
+      "id": "N02",
+      "expectedFight": true,
+      "sourceId": "pMtu7fOHdII",
+      "sourcePath": "data/video/test_videos/v=pMtu7fOHdII__#1_label_B1-0-0.mp4",
+      "sha256": "bd7aaff9b210d54059693aca2ebe8df38cc7c1b7aa8c6dca848475087cb6c5f0",
+      "bytes": 6179342,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DpMtu7fOHdII__%231_label_B1-0-0.mp4"
+    },
+    {
+      "id": "N03",
+      "expectedFight": true,
+      "sourceId": "oipd63DGadU",
+      "sourcePath": "data/video/test_videos/v=oipd63DGadU__#1_label_B1-0-0.mp4",
+      "sha256": "43ba344c8b31bc3554d8f702a9c738f46c42918535e4ce5e0123eeb32f338a6c",
+      "bytes": 6229078,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3Doipd63DGadU__%231_label_B1-0-0.mp4"
+    },
+    {
+      "id": "N04",
+      "expectedFight": true,
+      "sourceId": "BQjKQbYgUBA",
+      "sourcePath": "data/video/test_videos/v=BQjKQbYgUBA__#1_label_B1-0-0.mp4",
+      "sha256": "9e3a70588cc1b4696ddc058be56f90509f252921ce5682f13371074743680640",
+      "bytes": 6536050,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DBQjKQbYgUBA__%231_label_B1-0-0.mp4"
+    },
+    {
+      "id": "N05",
+      "expectedFight": true,
+      "sourceId": "rXWOpZ7W2fA",
+      "sourcePath": "data/video/test_videos/v=rXWOpZ7W2fA__#1_label_B1-0-0.mp4",
+      "sha256": "ceab12c88d1689a80b72f23151d3f765a31da1fd866fec701877f9206b67e2c5",
+      "bytes": 7212888,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DrXWOpZ7W2fA__%231_label_B1-0-0.mp4"
+    },
+    {
+      "id": "N06",
+      "expectedFight": false,
+      "sourceId": "aBsrZKrRtqU",
+      "sourcePath": "data/video/test_videos/v=aBsrZKrRtqU__#1_label_A.mp4",
+      "sha256": "7609a98c8ee3ec705183e39c63a7cff1790bfad981eeb1e51e58b2fd8bee916e",
+      "bytes": 3210561,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DaBsrZKrRtqU__%231_label_A.mp4"
+    },
+    {
+      "id": "N07",
+      "expectedFight": false,
+      "sourceId": "f6j3YWgVBto",
+      "sourcePath": "data/video/test_videos/v=f6j3YWgVBto__#00-01-50_00-02-30_label_A.mp4",
+      "sha256": "31656818ab6bfe08e34eb9148be221aaf01c8e884d1afcadaafaf98985cba482",
+      "bytes": 3300474,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3Df6j3YWgVBto__%2300-01-50_00-02-30_label_A.mp4"
+    },
+    {
+      "id": "N08",
+      "expectedFight": false,
+      "sourceId": "1EvRIhdsX1s",
+      "sourcePath": "data/video/test_videos/v=1EvRIhdsX1s__#1_label_A.mp4",
+      "sha256": "bf2f68ae13e971b5083f21c5b71a35e8410189966ca493472d1b413b737e9e7c",
+      "bytes": 3725256,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3D1EvRIhdsX1s__%231_label_A.mp4"
+    },
+    {
+      "id": "N09",
+      "expectedFight": false,
+      "sourceId": "Wc2QW06H48M",
+      "sourcePath": "data/video/test_videos/v=Wc2QW06H48M__#1_label_A.mp4",
+      "sha256": "3c28288596b8409c1644f483cb3ec604c6037f64e952f6af9ff46746b1a8fc7a",
+      "bytes": 4283368,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DWc2QW06H48M__%231_label_A.mp4"
+    },
+    {
+      "id": "N10",
+      "expectedFight": false,
+      "sourceId": "QUlWIIHMIEQ",
+      "sourcePath": "data/video/test_videos/v=QUlWIIHMIEQ__#1_label_A.mp4",
+      "sha256": "8315f199d76c8a88bcb5f81faa1e3bef36455ee05524d7bcf2657ac7f0db5e69",
+      "bytes": 4368114,
+      "url": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DQUlWIIHMIEQ__%231_label_A.mp4"
+    }
+  ]
+}

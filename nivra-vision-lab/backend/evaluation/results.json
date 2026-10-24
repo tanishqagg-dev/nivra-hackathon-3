@@ -1,0 +1,261 @@
+{
+  "complete": true,
+  "method": "Full source videos, complete 4-second windows at 2-second stride, plus a final complete window when needed. Actual JPEG / Vite proxy / backend requests. Alert decisions are summarized by the application's TypeScript FightDecision.",
+  "trainingOverlap": "Unknown; these videos were not used to choose this implementation.",
+  "inferenceMs": {
+    "min": 1438.2,
+    "median": 1988.8,
+    "max": 7612.5
+  },
+  "metrics": {
+    "tested": 10,
+    "correct": 8,
+    "tp": 5,
+    "tn": 3,
+    "fp": 2,
+    "fn": 0,
+    "accuracy": 0.8,
+    "precision": 0.7142857142857143,
+    "recall": 1
+  },
+  "videos": [
+    {
+      "id": "T01",
+      "expectedFight": true,
+      "predictedFight": true,
+      "correct": true,
+      "result": "Detected",
+      "durationSeconds": 23.208333333333332,
+      "windows": 11,
+      "positiveWindows": 7,
+      "firstAlertSeconds": 14,
+      "alertCount": 1,
+      "annotatedFightIntervalsSeconds": [
+        [
+          8.041666666666666,
+          12.083333333333334
+        ]
+      ],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": 5.958333333333334,
+      "alertsOutsideAnnotatedContext": 0,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 0,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DOE9t3XImErk__%231_label_B1-0-0.mp4",
+      "sourceId": "OE9t3XImErk",
+      "triggerCounts": {
+        "fast": 2,
+        "temporal": 1,
+        "visual": 7
+      }
+    },
+    {
+      "id": "T02",
+      "expectedFight": true,
+      "predictedFight": true,
+      "correct": true,
+      "result": "Detected",
+      "durationSeconds": 40.083333333333336,
+      "windows": 19,
+      "positiveWindows": 16,
+      "firstAlertSeconds": 8,
+      "alertCount": 2,
+      "annotatedFightIntervalsSeconds": [],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": null,
+      "alertsOutsideAnnotatedContext": null,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 2,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DBpargJW29Wo__%2300-00-50_00-01-30_label_B1-0-0.mp4",
+      "sourceId": "BpargJW29Wo",
+      "triggerCounts": {
+        "fast": 16,
+        "temporal": 14
+      }
+    },
+    {
+      "id": "T03",
+      "expectedFight": true,
+      "predictedFight": true,
+      "correct": true,
+      "result": "Detected",
+      "durationSeconds": 53.125,
+      "windows": 26,
+      "positiveWindows": 26,
+      "firstAlertSeconds": 6,
+      "alertCount": 1,
+      "annotatedFightIntervalsSeconds": [
+        [
+          0,
+          52.083333333333336
+        ]
+      ],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": 6,
+      "alertsOutsideAnnotatedContext": 0,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 0,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DgENp4SyNxkI__%231_label_B1-0-0.mp4",
+      "sourceId": "gENp4SyNxkI",
+      "triggerCounts": {
+        "fast": 26,
+        "temporal": 22,
+        "visual": 23
+      }
+    },
+    {
+      "id": "T04",
+      "expectedFight": true,
+      "predictedFight": true,
+      "correct": true,
+      "result": "Detected",
+      "durationSeconds": 53.958333333333336,
+      "windows": 26,
+      "positiveWindows": 21,
+      "firstAlertSeconds": 6,
+      "alertCount": 1,
+      "annotatedFightIntervalsSeconds": [
+        [
+          0,
+          53.916666666666664
+        ]
+      ],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": 6,
+      "alertsOutsideAnnotatedContext": 0,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 0,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DQ8K7roZu3WU__%231_label_B1-0-0.mp4",
+      "sourceId": "Q8K7roZu3WU",
+      "triggerCounts": {
+        "fast": 21,
+        "temporal": 14
+      }
+    },
+    {
+      "id": "T05",
+      "expectedFight": true,
+      "predictedFight": true,
+      "correct": true,
+      "result": "Detected",
+      "durationSeconds": 127.95833333333333,
+      "windows": 63,
+      "positiveWindows": 38,
+      "firstAlertSeconds": 18,
+      "alertCount": 2,
+      "annotatedFightIntervalsSeconds": [],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": null,
+      "alertsOutsideAnnotatedContext": null,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 1,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DY1hxr1MWLjM__%231_label_B1-0-0.mp4",
+      "sourceId": "Y1hxr1MWLjM",
+      "triggerCounts": {
+        "visual": 30,
+        "fast": 16,
+        "temporal": 13
+      }
+    },
+    {
+      "id": "T06",
+      "expectedFight": false,
+      "predictedFight": true,
+      "correct": false,
+      "result": "False alert",
+      "durationSeconds": 6.625,
+      "windows": 3,
+      "positiveWindows": 3,
+      "firstAlertSeconds": 6,
+      "alertCount": 1,
+      "annotatedFightIntervalsSeconds": [],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": null,
+      "alertsOutsideAnnotatedContext": null,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 0,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DhgoGZZSMhMQ__%231_label_A.mp4",
+      "sourceId": "hgoGZZSMhMQ",
+      "triggerCounts": {
+        "visual": 3
+      }
+    },
+    {
+      "id": "T07",
+      "expectedFight": false,
+      "predictedFight": false,
+      "correct": true,
+      "result": "Correctly quiet",
+      "durationSeconds": 10.625,
+      "windows": 5,
+      "positiveWindows": 0,
+      "firstAlertSeconds": null,
+      "alertCount": 0,
+      "annotatedFightIntervalsSeconds": [],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": null,
+      "alertsOutsideAnnotatedContext": null,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 0,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DmfFYGFJhBI4__%231_label_A.mp4",
+      "sourceId": "mfFYGFJhBI4",
+      "triggerCounts": {}
+    },
+    {
+      "id": "T08",
+      "expectedFight": false,
+      "predictedFight": true,
+      "correct": false,
+      "result": "False alert",
+      "durationSeconds": 28.458333333333332,
+      "windows": 14,
+      "positiveWindows": 9,
+      "firstAlertSeconds": 8,
+      "alertCount": 2,
+      "annotatedFightIntervalsSeconds": [],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": null,
+      "alertsOutsideAnnotatedContext": null,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 0,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DGnN9VTh_s2A__%231_label_A.mp4",
+      "sourceId": "GnN9VTh_s2A",
+      "triggerCounts": {
+        "fast": 9,
+        "visual": 1
+      }
+    },
+    {
+      "id": "T09",
+      "expectedFight": false,
+      "predictedFight": false,
+      "correct": true,
+      "result": "Correctly quiet",
+      "durationSeconds": 29.458333333333332,
+      "windows": 14,
+      "positiveWindows": 0,
+      "firstAlertSeconds": null,
+      "alertCount": 0,
+      "annotatedFightIntervalsSeconds": [],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": null,
+      "alertsOutsideAnnotatedContext": null,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 0,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3DrmDBn5Rpd3s__%231_label_A.mp4",
+      "sourceId": "rmDBn5Rpd3s",
+      "triggerCounts": {}
+    },
+    {
+      "id": "T10",
+      "expectedFight": false,
+      "predictedFight": false,
+      "correct": true,
+      "result": "Correctly quiet",
+      "durationSeconds": 40,
+      "windows": 19,
+      "positiveWindows": 0,
+      "firstAlertSeconds": null,
+      "alertCount": 0,
+      "annotatedFightIntervalsSeconds": [],
+      "firstAlertDelayFromAnnotatedOnsetSeconds": null,
+      "alertsOutsideAnnotatedContext": null,
+      "insufficientDuration": false,
+      "lateWindowsDropped": 2,
+      "sourceUrl": "https://huggingface.co/datasets/jherng/xd-violence/resolve/8eba22ca666b5061cf4f3e1b1907c05af520dc07/data/video/test_videos/v%3Dy7JEq-kf-2I__%2300-01-50_00-02-30_label_A.mp4",
+      "sourceId": "y7JEq-kf-2I",
+      "triggerCounts": {}
+    }
+  ]
+}

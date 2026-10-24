@@ -1,0 +1,18 @@
+{
+  "recordedAt": "2026-10-22T17:33:10.461211+00:00",
+  "files": {
+    "backend/detector.py": "a9d89c221201cb0db619597d518cf19b023fa9b4aa17fc3e7a8933cd133ee9ed",
+    "backend/server.py": "18d562ac4584f5369c32a8b05e9e2c47ad563a573c7a5b547cf1964a993ac6c1",
+    "src/lib/fightDecision.ts": "518f18d7e8b0443b39f7a16d43713a80446250a61fed7f7d80c61a3269cf6669",
+    "src/hooks/useFightDetector.ts": "306a123bf5f53716e222b386c7b472df3d515a772f8c2c34db10a6e8b0b9748c"
+  },
+  "thresholds": {
+    "fast": 0.4,
+    "temporal": 0.7,
+    "visual": 0.9
+  },
+  "positiveWindowsToAlert": 2,
+  "sourceWindowSeconds": 4,
+  "evaluationStrideSeconds": 2,
+  "note": "No inference thresholds changed after the ten-video manifest was frozen."
+}

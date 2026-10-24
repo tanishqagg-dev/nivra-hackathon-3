@@ -1,0 +1,33 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'work.tanishq.nivra'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'work.tanishq.nivra'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '0.1.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+dependencies {
+    implementation 'com.google.android.gms:play-services-code-scanner:16.1.0'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+// These URL-policy tests are pure Java. Running JUnit directly avoids opening
+// Gradle test-worker IPC ports, which local HTTP preview probes can interrupt.
+tasks.register('verifyPairingUrls', JavaExec) {
+    dependsOn 'compileDebugUnitTestJavaWithJavac'
+    mainClass = 'org.junit.runner.JUnitCore'
+    args 'work.tanishq.nivra.UrlPolicyTest'
+    classpath = files(
+        layout.buildDirectory.dir('intermediates/javac/debug/compileDebugJavaWithJavac/classes'),
+        layout.buildDirectory.dir('intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes')
+    ) + configurations.debugUnitTestRuntimeClasspath
+}

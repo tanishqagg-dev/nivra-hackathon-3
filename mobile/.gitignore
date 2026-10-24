@@ -1,0 +1,10 @@
+build/
+android/.gradle/
+android/app/build/
+android/local.properties
+**/xcuserdata/
+.DS_Store
+__pycache__/
+
+# Reproducible trained Core ML artifact; stage using export-x3d-coreml.py.
+ios/Models/*.mlpackage/

@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D55C2C73A37BCA6AE65E32 /* provenance.json in Resources */ = {isa = PBXBuildFile; fileRef = E00FC2401D7BF6CC2F65AF3A /* provenance.json */; };
+		041DAADC8F0975AA2F1E9DE1 /* USBFrameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22ECE58EBEA0AF6A8BAC480 /* USBFrameStore.swift */; };
+		11E45AE358AED6CC5E4B922F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630946E3F2E73A14AED85629 /* HomeView.swift */; };
+		1409CA7EBC669F12E37017F4 /* LocalCameraNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0284FE6F81731681569C3 /* LocalCameraNetwork.swift */; };
+		153A28760F23B3DE02BE5B09 /* NivraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81FFDC95B60735195C4EA5 /* NivraApp.swift */; };
+		27734895369F640186F3E30A /* NativeFightVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E974B7B2A234D62A69679 /* NativeFightVisionTests.swift */; };
+		31BCF287F410677D5EDF63F3 /* WebSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B53B18B32355FFFB545D /* WebSession.swift */; };
+		6519DAF91E1AFD3A509B4D4B /* NativePeopleVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68DCEB7CFF1F3659E43F282 /* NativePeopleVisionTests.swift */; };
+		661316463373C6F39A35B009 /* QRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1F6E8636D3304D88B8633 /* QRScanner.swift */; };
+		677FB3FDA19455EB34312FA8 /* USBOfflineCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651329910BC574931A8A48 /* USBOfflineCamera.swift */; };
+		7A7BC6A2F631F5305017E5D5 /* NivraX3D.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 964D79558E98103AFA628B82 /* NivraX3D.mlpackage */; };
+		806D0E896D88B0EE7B0E4FCD /* LocalVideoEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743D18EA2B7BA73A1B633DF5 /* LocalVideoEncoder.swift */; };
+		86261333D60A3FFF6DD20C51 /* LocalVideoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA5B76520E76A043F3F5F3 /* LocalVideoStore.swift */; };
+		9CA7CC2D1B3E70E1635FC346 /* USBCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476FCEC2739AA02249AC4FB /* USBCameraView.swift */; };
+		ACDB725DBF7CA4CF3229CE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300557CD4612A7985C9A63AD /* Assets.xcassets */; };
+		B8F4D607153A44B1D3E33F60 /* LocalVideoStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F26BEDEC5623E4FFFB865F9 /* LocalVideoStoreTests.swift */; };
+		C0FCBFB3E0B1116BC5A52ADC /* USBHTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD7463A66612292AB73355 /* USBHTTPServer.swift */; };
+		C2272376F01C161A31B7653A /* NativePeopleVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92297814037348159B0746E8 /* NativePeopleVision.swift */; };
+		F3D543D2904C998F10A5C164 /* NativeFightVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EBF6DC3D2B39D5258C3C22 /* NativeFightVision.swift */; };
+		F5C717BCB45212FC4DECB835 /* NativeAnalysisStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBD25184163187F214CA13 /* NativeAnalysisStore.swift */; };
+		FB74397A8342685CC0A1CC27 /* PairingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2608358AFB7F51A8C540C /* PairingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CFF284F4FB854023FF6987B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AA23AC1A0003579704D3956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D136C23E74ACC34145A32EB9;
+			remoteInfo = Nivra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		300557CD4612A7985C9A63AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D81FFDC95B60735195C4EA5 /* NivraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivraApp.swift; sourceTree = "<group>"; };
+		41A2608358AFB7F51A8C540C /* PairingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingTests.swift; sourceTree = "<group>"; };
+		4476FCEC2739AA02249AC4FB /* USBCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBCameraView.swift; sourceTree = "<group>"; };
+		46651329910BC574931A8A48 /* USBOfflineCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBOfflineCamera.swift; sourceTree = "<group>"; };
+		50A3B53B18B32355FFFB545D /* WebSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSession.swift; sourceTree = "<group>"; };
+		5A9A10F6A96C8041D9BB853A /* Nivra.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Nivra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3725F6C854D8B70ACFDF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		630946E3F2E73A14AED85629 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		743D18EA2B7BA73A1B633DF5 /* LocalVideoEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalVideoEncoder.swift; sourceTree = "<group>"; };
+		81E1F6E8636D3304D88B8633 /* QRScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanner.swift; sourceTree = "<group>"; };
+		8ABD7463A66612292AB73355 /* USBHTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBHTTPServer.swift; sourceTree = "<group>"; };
+		8BFA5B76520E76A043F3F5F3 /* LocalVideoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalVideoStore.swift; sourceTree = "<group>"; };
+		8F26BEDEC5623E4FFFB865F9 /* LocalVideoStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalVideoStoreTests.swift; sourceTree = "<group>"; };
+		92297814037348159B0746E8 /* NativePeopleVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePeopleVision.swift; sourceTree = "<group>"; };
+		964D79558E98103AFA628B82 /* NivraX3D.mlpackage */ = {isa = PBXFileReference; path = NivraX3D.mlpackage; sourceTree = "<group>"; };
+		9850493FB31C7CC2591AC2EF /* Nivra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nivra.entitlements; sourceTree = "<group>"; };
+		A6D0284FE6F81731681569C3 /* LocalCameraNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCameraNetwork.swift; sourceTree = "<group>"; };
+		B36E974B7B2A234D62A69679 /* NativeFightVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeFightVisionTests.swift; sourceTree = "<group>"; };
+		C7EBF6DC3D2B39D5258C3C22 /* NativeFightVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeFightVision.swift; sourceTree = "<group>"; };
+		D68DCEB7CFF1F3659E43F282 /* NativePeopleVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePeopleVisionTests.swift; sourceTree = "<group>"; };
+		DADBD25184163187F214CA13 /* NativeAnalysisStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAnalysisStore.swift; sourceTree = "<group>"; };
+		E00FC2401D7BF6CC2F65AF3A /* provenance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = provenance.json; sourceTree = "<group>"; };
+		E22ECE58EBEA0AF6A8BAC480 /* USBFrameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBFrameStore.swift; sourceTree = "<group>"; };
+		EA6E7068533E8760817C583C /* NivraTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NivraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		043B0C1A03C5D067CDF11B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A10F6A96C8041D9BB853A /* Nivra.app */,
+				EA6E7068533E8760817C583C /* NivraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2567F21EF72AB2A8B6B05928 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				964D79558E98103AFA628B82 /* NivraX3D.mlpackage */,
+				E00FC2401D7BF6CC2F65AF3A /* provenance.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BC4047CEBBDEDD791297FB6 /* Nivra */ = {
+			isa = PBXGroup;
+			children = (
+				300557CD4612A7985C9A63AD /* Assets.xcassets */,
+				630946E3F2E73A14AED85629 /* HomeView.swift */,
+				5F3725F6C854D8B70ACFDF78 /* Info.plist */,
+				A6D0284FE6F81731681569C3 /* LocalCameraNetwork.swift */,
+				743D18EA2B7BA73A1B633DF5 /* LocalVideoEncoder.swift */,
+				8BFA5B76520E76A043F3F5F3 /* LocalVideoStore.swift */,
+				DADBD25184163187F214CA13 /* NativeAnalysisStore.swift */,
+				C7EBF6DC3D2B39D5258C3C22 /* NativeFightVision.swift */,
+				92297814037348159B0746E8 /* NativePeopleVision.swift */,
+				9850493FB31C7CC2591AC2EF /* Nivra.entitlements */,
+				3D81FFDC95B60735195C4EA5 /* NivraApp.swift */,
+				81E1F6E8636D3304D88B8633 /* QRScanner.swift */,
+				4476FCEC2739AA02249AC4FB /* USBCameraView.swift */,
+				E22ECE58EBEA0AF6A8BAC480 /* USBFrameStore.swift */,
+				8ABD7463A66612292AB73355 /* USBHTTPServer.swift */,
+				46651329910BC574931A8A48 /* USBOfflineCamera.swift */,
+				50A3B53B18B32355FFFB545D /* WebSession.swift */,
+			);
+			path = Nivra;
+			sourceTree = "<group>";
+		};
+		AAE6F6B5842E0B4F8E1FA09A = {
+			isa = PBXGroup;
+			children = (
+				2567F21EF72AB2A8B6B05928 /* Models */,
+				9BC4047CEBBDEDD791297FB6 /* Nivra */,
+				D96A3B058C7DA6EB26AFEA32 /* NivraTests */,
+				043B0C1A03C5D067CDF11B85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D96A3B058C7DA6EB26AFEA32 /* NivraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F26BEDEC5623E4FFFB865F9 /* LocalVideoStoreTests.swift */,
+				B36E974B7B2A234D62A69679 /* NativeFightVisionTests.swift */,
+				D68DCEB7CFF1F3659E43F282 /* NativePeopleVisionTests.swift */,
+				41A2608358AFB7F51A8C540C /* PairingTests.swift */,
+			);
+			path = NivraTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6015209515404923AF1CD776 /* NivraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA78B092692BD7C7A1D018B /* Build configuration list for PBXNativeTarget "NivraTests" */;
+			buildPhases = (
+				3ABDCFF88C85B867DB3B63DF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EB0C222812912D3542984A /* PBXTargetDependency */,
+			);
+			name = NivraTests;
+			packageProductDependencies = (
+			);
+			productName = NivraTests;
+			productReference = EA6E7068533E8760817C583C /* NivraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D136C23E74ACC34145A32EB9 /* Nivra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FE9D0186754FB42426F434 /* Build configuration list for PBXNativeTarget "Nivra" */;
+			buildPhases = (
+				91F529A21691A44968F6D985 /* Sources */,
+				80C363CA5C48C17349E79C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nivra;
+			packageProductDependencies = (
+			);
+			productName = Nivra;
+			productReference = 5A9A10F6A96C8041D9BB853A /* Nivra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AA23AC1A0003579704D3956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6015209515404923AF1CD776 = {
+						DevelopmentTeam = "";
+					};
+					D136C23E74ACC34145A32EB9 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 098E9D45CF1AE66E5F580B25 /* Build configuration list for PBXProject "Nivra" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AAE6F6B5842E0B4F8E1FA09A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 043B0C1A03C5D067CDF11B85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D136C23E74ACC34145A32EB9 /* Nivra */,
+				6015209515404923AF1CD776 /* NivraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C363CA5C48C17349E79C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB725DBF7CA4CF3229CE8E /* Assets.xcassets in Resources */,
+				01D55C2C73A37BCA6AE65E32 /* provenance.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ABDCFF88C85B867DB3B63DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F4D607153A44B1D3E33F60 /* LocalVideoStoreTests.swift in Sources */,
+				27734895369F640186F3E30A /* NativeFightVisionTests.swift in Sources */,
+				6519DAF91E1AFD3A509B4D4B /* NativePeopleVisionTests.swift in Sources */,
+				FB74397A8342685CC0A1CC27 /* PairingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F529A21691A44968F6D985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E45AE358AED6CC5E4B922F /* HomeView.swift in Sources */,
+				1409CA7EBC669F12E37017F4 /* LocalCameraNetwork.swift in Sources */,
+				806D0E896D88B0EE7B0E4FCD /* LocalVideoEncoder.swift in Sources */,
+				86261333D60A3FFF6DD20C51 /* LocalVideoStore.swift in Sources */,
+				F5C717BCB45212FC4DECB835 /* NativeAnalysisStore.swift in Sources */,
+				F3D543D2904C998F10A5C164 /* NativeFightVision.swift in Sources */,
+				C2272376F01C161A31B7653A /* NativePeopleVision.swift in Sources */,
+				153A28760F23B3DE02BE5B09 /* NivraApp.swift in Sources */,
+				7A7BC6A2F631F5305017E5D5 /* NivraX3D.mlpackage in Sources */,
+				661316463373C6F39A35B009 /* QRScanner.swift in Sources */,
+				9CA7CC2D1B3E70E1635FC346 /* USBCameraView.swift in Sources */,
+				041DAADC8F0975AA2F1E9DE1 /* USBFrameStore.swift in Sources */,
+				C0FCBFB3E0B1116BC5A52ADC /* USBHTTPServer.swift in Sources */,
+				677FB3FDA19455EB34312FA8 /* USBOfflineCamera.swift in Sources */,
+				31BCF287F410677D5EDF63F3 /* WebSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60EB0C222812912D3542984A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D136C23E74ACC34145A32EB9 /* Nivra */;
+			targetProxy = 3CFF284F4FB854023FF6987B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		117C0DC7D34B44AAC9F6DE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.tanishq.nivra.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nivra.app/Nivra";
+			};
+			name = Debug;
+		};
+		3781D6DAD9819FC52B3306E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nivra/Nivra.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Nivra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.tanishq.nivra.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77762F0D9B77CF4396AE3C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9081D553601E6CC8B67048C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.tanishq.nivra.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nivra.app/Nivra";
+			};
+			name = Release;
+		};
+		B9ADAE342269F081053C45E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D9394DB841D20F04A95EE2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nivra/Nivra.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Nivra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.tanishq.nivra.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		098E9D45CF1AE66E5F580B25 /* Build configuration list for PBXProject "Nivra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9ADAE342269F081053C45E5 /* Debug */,
+				77762F0D9B77CF4396AE3C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7FA78B092692BD7C7A1D018B /* Build configuration list for PBXNativeTarget "NivraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117C0DC7D34B44AAC9F6DE04 /* Debug */,
+				9081D553601E6CC8B67048C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93FE9D0186754FB42426F434 /* Build configuration list for PBXNativeTarget "Nivra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9394DB841D20F04A95EE2F6 /* Debug */,
+				3781D6DAD9819FC52B3306E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AA23AC1A0003579704D3956 /* Project object */;
+}
